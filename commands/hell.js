@@ -1,0 +1,3 @@
+exports.run = (client, message) => {
+  message.channel.sendMessage("LynxExodus - 01/12/2017\nOne of the best hell builds I've built. \nLisa-poison \nAlice / Dorothy ice/fire \nChampion zero/solar (depending on Alice and Dorothy) \n*Replace frozen heart with skull ring if using solar &  Alice and Dorothy is fire*\nhttps://cdn.discordapp.com/attachments/260951075853434881/269080088476254208/Screenshot_20170112-192733_01.png")
+   };
