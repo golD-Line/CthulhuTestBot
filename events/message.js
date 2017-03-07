@@ -23,7 +23,7 @@ module.exports = message => {
     // Level up!
     userData.level = curLevel;
     message.reply(`You've leveled up to level **${curLevel}**! Ain't that dandy?`);
-  }
+  };
 
 console.log(points)
   // And then, we save the edited file.
