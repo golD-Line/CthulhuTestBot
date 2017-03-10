@@ -5,9 +5,6 @@ let points = JSON.parse(fs.readFileSync('./points.json', 'utf8'));
 module.exports = message => {
     if (message.author.bot) return;   //if its sent by a bot dont do anything
     
-    if (message.cleanContent.indexOf("@")!==-1) {//if there is an @ symbol in the message
-       message.client.channels.get(settings.logChannel).sendMessage(`A message was sent by ${message.author}\n ${message.content.toString()} in ${message.channel}`);        
-    }
 
 
   // if the points don't exist, init to 0;
