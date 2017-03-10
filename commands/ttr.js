@@ -1,5 +1,5 @@
 exports.run = (client, message) => {
-  var t = Date.parse("Mar 11 2017 02:00");
+  var t = Date.parse("Mar 16 2017 02:00");
   var x = Date.now()
   var tt = (t-x)
 
